@@ -12,7 +12,7 @@
     "variables": {
       "storageName": "[concat('function', uniqueString(parameters('siteName')))]",
       "contentShareName": "[toLower(parameters('siteName'))]",
-      "repoUrl": "https://github.com/raahmed/QueueTrigger",
+      "repoUrl": "https://github.com/raahmed/BlobStorageTrigger",
       "branch": "master"
     },
     "resources": [
